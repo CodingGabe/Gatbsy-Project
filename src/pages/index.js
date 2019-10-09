@@ -1,9 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 import Header from "../components/header"
+import Layout from "../components/layout"
 
 export default () => (
-        <div style={{ color: '#202020'}}>
+        <div>
             <Link to="/contact/">Contact</Link>
             <h1>Hello World!</h1>
             <p>Welcome to Membersy.</p>
