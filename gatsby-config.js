@@ -5,6 +5,9 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: `Membersy`,
+  },
   plugins: [
     `gatsby-plugin-emotion`,
     {
