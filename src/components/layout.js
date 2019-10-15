@@ -3,6 +3,7 @@ import "./layout.css"
 import { useStaticQuery, Link, graphql } from "gatsby"
 import { css } from "@emotion/core"
 import { rhythm } from "../utils/typography"
+import SEO from "../components/seo"
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
